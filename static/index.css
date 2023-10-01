@@ -1,0 +1,47 @@
+/* Reset default browser styles for consistency */
+body, h1, h5, p, a {
+    margin: 0;
+    padding: 0;
+    margin-top: 200px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+h5 {
+    color: #555;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+p {
+    color: #666;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 24px;
+    margin: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    background-color: #007BFF;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #0056b3;
+}
